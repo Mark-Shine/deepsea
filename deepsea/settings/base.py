@@ -28,7 +28,6 @@ INSTALLED_APPS = (
     # 'deepsea.apps.',
 
     #'south',
-
     'django.contrib.auth',
     'django.contrib.contenttypes',
     'django.contrib.sessions',
@@ -37,6 +36,10 @@ INSTALLED_APPS = (
     'django.contrib.staticfiles',
     'django.contrib.admin',
     'django.contrib.admindocs',
+    'deepsea.apps.order',
+    'deepsea.apps.customer',
+    'deepsea.apps.analysises',
+
 )
 
 #==============================================================================
